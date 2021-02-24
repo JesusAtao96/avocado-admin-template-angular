@@ -1,0 +1,7 @@
+<div class="c-dashboard">
+  <header class="c-header" app-header [isSidebarOpen]="isSidebarOpen" (toggle)="isSidebarOpen = $event"></header>
+  <nav class="c-nav" app-sidebar [isSidebarOpen]="isSidebarOpen" (toggle)="isSidebarOpen = $event" [ngClass]="{'c-nav--toggled': !isSidebarOpen}"></nav>
+  <main class="c-dashboard__main">
+    <router-outlet></router-outlet>
+  </main>
+</div>
