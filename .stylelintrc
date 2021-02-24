@@ -13,7 +13,7 @@
       }
     ],
     "selector-attribute-quotes": "always",
-    "string-quotes": "single",
+    "string-quotes": "double",
     "max-nesting-depth": 3,
     "selector-max-compound-selectors": 3,
     "selector-max-specificity": "0,3,2",
